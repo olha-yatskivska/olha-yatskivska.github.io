@@ -1,11 +1,15 @@
 # Equivalence Partitioning (EP)
 
+> Sources:
+> * Certified Tester Advanced Level Test Analyst (CTAL-TA) Syllabus
+> * Course ISTQB Advanced Test Analyst from the Trainer Alexandra Kovalova 
+
 EP is a technique used to reduce the number of test cases required to effectively test the handling of inputs, outputs, internal values and time-related values  
 
-> What does really this technique check? - Assumption!
-> This is the belief that if one value in a partition works (or fails), all other values in that same partition will behave exactly the same way.
----
+What does really this technique check? - Assumption!
+This is the belief that if one value in a partition works (or fails), all other values in that same partition will behave exactly the same way.
 
+---
 
 * **The Conceptual Definition:** The system handles all members of a specific subset identically. Therefore, a single test case represents the entire partition's behavior.
 * **The Risk-Focused Approach:** Any underlying logic flaws that affect only specific values within a partition (and not the representative sample) remain a residual risk. Its reliability depends on how correctly the 'equivalence' is identified during analysis.
@@ -29,14 +33,14 @@ EP is a technique used to reduce the number of test cases required to effectivel
 * The Test Analyst should have deep domain knowledge  for taking into account possible dependencies between equivalence partitions of different parameters.
 
 > Example of domain knowledge required:
-> * Time values: Must recognize that 24-hour cycle resets (modulo behavior)
+> * Time values: Must recognize that 24-hour cycle resets 
 > * Dates: Must recognize database limitations (e.g., 1753 start date in SQL Server)
 > * Dependencies: "Valid time" partition depends on "Valid date" partition
 
 ---
 
 ## Practical Extensions of Equivalence Partitioning (EP)
-> [🔗 Practice reference](https://github.com/olha-yatskivska/qa-artifacts/tree/main/test-design/non-functional-testing)
+> [🔗 Practice reference](./ep-templates-nbr.md)
 * Volume: Partitioning data sizes into 'low,' 'standard,' and 'stress' loads.
 * Security: Grouping user roles based on access level equivalence.
 * Localization: Classifying regions with identical character sets or currency formats.
@@ -51,6 +55,7 @@ EP is a technique used to reduce the number of test cases required to effectivel
 * More than one test per one class does not increase EP coverage, but may increase confidence for high-risk partitions (security, financial domains) 
  
 ---
+
 ##  EP types
 * Simple (Boolean (True, False), x > 5,  A = B) / Compound (combinations like (x > 5) and (y < 10)) 
 * Ordered (rainbow)/ Unordered (colours)
@@ -61,6 +66,7 @@ EP is a technique used to reduce the number of test cases required to effectivel
 * Singleton Partitioning (Zero (0, Null, N/A, Empty))
 
 ---
+
 ## Coverage
 * Coverage is determined by taking the number of partitions for which a value has been tested and dividing that number by the number of partitions that have been identified.
 * Coverage = (Number of partitions with ≥1 test case) / (Total partitions identified) × 100%
@@ -70,11 +76,14 @@ EP is a technique used to reduce the number of test cases required to effectivel
 * Differentiating between combinations containing only valid partitions and combinations containing one or more invalid partitions is therefore essential
 * Invalid equivalence partitions should be tested at least individually, i.e. in combination with valid partitions for the other parameters, in order to avoid defect masking
 
+
 > ⚠️ **Defect Masking Prevention:**
 > * Test invalid partitions SEPARATELY or in combination with valid partitions
 > * Example: If parameter A is invalid AND parameter B is invalid, a defect in handling A might be masked by the error from B
 > * Rule: Maximum one invalid partition per test case (for single-fault assumption)
+
 ---
+
 ## Types of Defects 
 * Defects in the handling of various data values
 * Incorrect handling of valid input values
@@ -82,5 +91,13 @@ EP is a technique used to reduce the number of test cases required to effectivel
 * Incorrect error messages or error handling
 * Incorrect processing rules applied to a data group
 
+---
+
+See also:
+
+* **[Test Matrix for an Input Field](./input-field-test-matrix.md)** - Practical applying EP to an Input Field.
+* **[Equivalence Partitioning (EP) for Non‑Functional Requirements](./ep-templates-nbr.md)** - Practical templates for applying EP to NFRs.
+* **[Boundary Value Analysis (BVA)](./bva.md)** - Summary of the core concepts from ISTQB Advanced Test Analyst.
+* **[Back to Main Page](./)**
 
 
