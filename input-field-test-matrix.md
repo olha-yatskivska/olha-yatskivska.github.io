@@ -62,6 +62,6 @@ See also:
 
 * **[Equivalence Partitioning (EP)](./equivalence-partitioning.md)** - Summary of the core concepts from ISTQB Advanced Test Analyst.
 * **[Equivalence Partitioning (EP) for Non‑Functional Requirements](./ep-templates-nbr.md)** - Practical templates for applying EP to NFRs.
-* **[Back to Main Page](./main?search=1#readme)**
+* **[Back to Main Page](./)**
 
 
