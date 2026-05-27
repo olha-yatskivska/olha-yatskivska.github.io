@@ -1,3 +1,5 @@
+[(Back to Main Page)](./)
+
 # Equivalence Partitioning (EP)
 
 > Sources:
