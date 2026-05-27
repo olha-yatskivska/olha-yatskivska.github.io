@@ -1,15 +1,10 @@
+[(Back to Main Page)](./)
+
 # Test Matrix for an Input Field
 
 > Source: C. Kaner, J.Bach, B. Pattichord "Lessons Learned in Software Testing"
 
-For convenience, the Test Matrix is provided in [Spreadsheets](https://docs.google.com/spreadsheets/d/1iwLri_iummO5VbK9NMeDdRIPQQAvaEdBTxWiUUDPObo/edit?gid=571842728#gid=571842728)
-
-
-[pdf](https://github.com/olha-yatskivska/olha-yatskivska.github.io/blob/main/numeric-input-field-test-matrix%20-%20numeric-input-field-test-matrix.pdf)
-
-[html](https://github.com/olha-yatskivska/olha-yatskivska.github.io/blob/main/numeric-input-field-test-matrix.html)
-
-[xml](https://github.com/olha-yatskivska/olha-yatskivska.github.io/blob/main/numeric-input-field-test-matrix.xlsx)
+For convenience, the Test Matrix is provided in [Spreadsheets](https://docs.google.com/spreadsheets/d/1aibTRwH8TQT3JxSCYpMs6LWy-EzLxQo5QEkTkILl1jA/edit?usp=sharing)
 
 ## A catalog of additional tests
 
@@ -60,5 +55,13 @@ For convenience, the Test Matrix is provided in [Spreadsheets](https://docs.goog
 | `١٢٣٤٥` (Arabic digits) | Python \d matches these |
 | `𝟏𝟐𝟑𝟒𝟓` (Math bold) | Looks identical to 12345 |
 | `１２３４５` (Fullwidth) | Common in Japanese input |
+
+---
+
+See also:
+
+* **[Equivalence Partitioning (EP)](./equivalence-partitioning.md)** - Summary of the core concepts from ISTQB Advanced Test Analyst.
+* **[Equivalence Partitioning (EP) for Non‑Functional Requirements](./ep-templates-nbr.md)** - Practical templates for applying EP to NFRs.
+* **[Back to Main Page](./main?search=1#readme)**
 
 
