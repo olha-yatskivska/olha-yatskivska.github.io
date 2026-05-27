@@ -4,7 +4,7 @@
 
 > Sources:
 > * Certified Tester Advanced Level Test Analyst (CTAL-TA) Syllabus
-> * Course ISTQB Advanced Test Analyst from the Trainer Alexandra Kovalova 
+> * Course ISTQB Advanced Test Analyst from the [Trainer Alexandra Kovalova](https://certifiedunicorns.pro/advancedistqb?utm_source=telegram&utm_medium=webinar-agile-anons&utm_campaign=25-05)
 
 EP is a technique used to reduce the number of test cases required to effectively test the handling of inputs, outputs, internal values and time-related values  
 
