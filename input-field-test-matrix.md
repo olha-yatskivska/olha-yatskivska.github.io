@@ -8,7 +8,11 @@ For convenience, the Test Matrix is provided in [Spreadsheets](https://docs.goog
 
 ## A catalog of additional tests
 
-* [ ] Enter nothing but wait for a long time before pressing the Enter or Tab key, clicking OK, or doing something equivalent that takes you out of the field. Is there a time-out? What is the effect?
+```html
+<ul>
+  <li><input type="checkbox"> Enter nothing but wait for a long time before pressing the Enter or Tab key, clicking OK, or doing something equivalent that takes you out of the field. Is there a time-out? What is the effect?</li>
+</ul>
+```
 
 * [ ] Enter one digit but wait for a long time before entering another digit or digits and then press the Enter key. How long do you have to wait before the system times you out, if it does? What happens to the data you entered? What happens to other data you previously entered?
 
