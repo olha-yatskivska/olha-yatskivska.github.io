@@ -1,3 +1,15 @@
+```html
+<script>
+  // Wait for the page to load
+  document.addEventListener("DOMContentLoaded", function() {
+    // Find all checkboxes and make them clickable
+    let checkboxes = document.querySelectorAll('input[type="checkbox"]');
+    checkboxes.forEach(function(cb) {
+      cb.disabled = false;
+    });
+  });
+</script>
+```
 # Test Matrix for an Input Field
 
 > Source: C. Kaner, J.Bach, B. Pattichord "Lessons Learned in Software Testing"
@@ -15,3 +27,41 @@ For convenience, the Test Matrix is provided in [Spreadsheets](https://docs.goog
 * [ ] Enter digits while the system is reacting to interrupts of different kinds (such as printer activity, clock events, mouse movement and clicks, files going to disk, and so on).
 
 * [ ] Enter a digit, shift focus to another application, return to this application. Where is the focus?
+
+---
+
+## Input Testing - Hidden Traps
+
+## Invisible Characters (paste-specific)
+
+| Character | Unicode | Name | Source |
+|:--|:--|:--|:--|
+| ​ | U+200B | Zero-Width Space | CMS, websites |
+| ‌ | U+200C | Zero-Width Non-Joiner | Multilingual text |
+| ‍ | U+200D | Zero-Width Joiner | Emoji, copy-paste |
+| ﻿ | U+FEFF | BOM | Files, APIs |
+|   | U+00A0 | Non-Breaking Space | Web pages, Word |
+| ­ | U+00AD | Soft Hyphen | Word processors |
+
+> Keyboard cannot produce these. Always test paste separately.
+
+## ASCII Boundaries for Numeric Fields
+
+| Boundary | Char | ASCII | Use When |
+|:--|:--|:--|:--|
+| Just below 0 | `/` | 47 | Numeric-only fields |
+| Just above 9 | `:` | 58 | Numeric-only fields |
+| Just below A | `@` | 64 | Alpha-only fields |
+| Just above Z | `[` | 91 | Alpha-only fields |
+| Just below a | `` ` `` | 96 | Alpha-only fields |
+| Just above z | `{` | 123 | Alpha-only fields |
+
+## Unicode Traps (if in Expression is using [0-9] instead of \d)
+
+| Input | Risk |
+|:--|:--|
+| `١٢٣٤٥` (Arabic digits) | Python \d matches these |
+| `𝟏𝟐𝟑𝟒𝟓` (Math bold) | Looks identical to 12345 |
+| `１２３４５` (Fullwidth) | Common in Japanese input |
+
+
