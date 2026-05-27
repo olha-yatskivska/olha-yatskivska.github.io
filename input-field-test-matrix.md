@@ -4,6 +4,13 @@
 
 For convenience, the Test Matrix is provided in [Spreadsheets](https://docs.google.com/spreadsheets/d/1iwLri_iummO5VbK9NMeDdRIPQQAvaEdBTxWiUUDPObo/edit?gid=571842728#gid=571842728)
 
+
+[pdf](https://github.com/olha-yatskivska/olha-yatskivska.github.io/blob/main/numeric-input-field-test-matrix%20-%20numeric-input-field-test-matrix.pdf)
+
+[html](https://github.com/olha-yatskivska/olha-yatskivska.github.io/blob/main/numeric-input-field-test-matrix.html)
+
+[xml](https://github.com/olha-yatskivska/olha-yatskivska.github.io/blob/main/numeric-input-field-test-matrix.xlsx)
+
 ## A catalog of additional tests
 
 * [ ] Enter nothing but wait for a long time before pressing the Enter or Tab key, clicking OK, or doing something equivalent that takes you out of the field. Is there a time-out? What is the effect?
