@@ -160,6 +160,7 @@ System supports multiple locales.
 | Monitoring | Detect degradation |
 | Pairwise | Reduce combinations |
 | Soak testing | Long‑term issues |
+| Classification Tree | Visualize and reduce combinations  |
 
 ---
 
