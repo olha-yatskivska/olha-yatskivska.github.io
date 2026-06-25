@@ -1,4 +1,4 @@
-[(Back to Main Page)](./)
+[Back to Main Page](./)
 
 # Test Matrix for an Input Field
 
@@ -6,7 +6,8 @@
 
 For convenience, the Test Matrix is provided in [Spreadsheets](https://docs.google.com/spreadsheets/d/1aibTRwH8TQT3JxSCYpMs6LWy-EzLxQo5QEkTkILl1jA/edit?usp=sharing)
 
-## A catalog of additional tests
+---
+### A catalog of additional tests
 
 * [ ] Enter nothing but wait for a long time before pressing the Enter or Tab key, clicking OK, or doing something equivalent that takes you out of the field. Is there a time-out? What is the effect?
 
