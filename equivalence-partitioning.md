@@ -1,9 +1,9 @@
-[(Back to Main Page)](./)
+[Back to Main Page](./)
 
 # Equivalence Partitioning (EP)
 
 > Sources:
-> * Certified Tester Advanced Level Test Analyst (CTAL-TA) Syllabus
+> * [Certified Tester Advanced Level Test Analyst (CTAL-TA) Syllabus](https://istqb.org/certifications/certified-tester-advanced-level-test-analyst-retiring/)
 > * Course ISTQB Advanced Test Analyst from the [Trainer Alexandra Kovalova](https://certifiedunicorns.pro/advancedistqb?utm_source=telegram&utm_medium=webinar-agile-anons&utm_campaign=25-05)
 
 EP is a technique used to reduce the number of test cases required to effectively test the handling of inputs, outputs, internal values and time-related values  
@@ -15,7 +15,7 @@ This is the belief that if one value in a partition works (or fails), all other 
 
 * **The Conceptual Definition:** The system handles all members of a specific subset identically. Therefore, a single test case represents the entire partition's behavior.
 * **The Risk-Focused Approach:** Any underlying logic flaws that affect only specific values within a partition (and not the representative sample) remain a residual risk. Its reliability depends on how correctly the 'equivalence' is identified during analysis.
-* **Mitigation:** Combine EP with Boundary Value Analysis (BVA) to catch edge cases and defects at the boundaries between equivalence partitions
+* **Mitigation:** Combine EP with [Boundary Value Analysis (BVA)](./boundary-value-analysis.md) to catch edge cases and defects at the boundaries between equivalence partitions
 
 
 ## Advantages
@@ -30,9 +30,9 @@ This is the belief that if one value in a partition works (or fails), all other 
 * Equivalence partitioning usually does not consider the boundary conditions.
 * Testers may incorrectly assume that all values in a partition behave identically.
 * EP may not detect defects related to specific values (e.g., magic numbers, special cases) within a partition.
-* If the assumption is incorrect and the values in the partition are not handled in exactly the same way , this technique may miss defect.
+* If the assumption is incorrect and the values in the partition are not handled in exactly the same way, this technique may miss defect.
 * There can be a lot of classes for every entity and its characteristics
-* The Test Analyst should have deep domain knowledge  for taking into account possible dependencies between equivalence partitions of different parameters.
+* The Test Analyst should have deep domain knowledge for taking into account possible dependencies between equivalence partitions of different parameters.
 
 > Example of domain knowledge required:
 > * Time values: Must recognize that 24-hour cycle resets 
@@ -46,7 +46,7 @@ This is the belief that if one value in a partition works (or fails), all other 
 * Volume: Partitioning data sizes into 'low,' 'standard,' and 'stress' loads.
 * Security: Grouping user roles based on access level equivalence.
 * Localization: Classifying regions with identical character sets or currency formats.
-* Interoperability: Browser or OS versions.
+* Flexibility/Adaptability: Browser or OS versions.
 
 ---
 
@@ -72,11 +72,11 @@ This is the belief that if one value in a partition works (or fails), all other 
 ## Coverage
 * Coverage is determined by taking the number of partitions for which a value has been tested and dividing that number by the number of partitions that have been identified.
 * Coverage = (Number of partitions with ≥1 test case) / (Total partitions identified) × 100%
-* Minimum = Maximum = Acceptable = "Highest" = 1-Wise Coverage (each partition is covered at least once.)
+* Minimum = Maximum = Acceptable = "Highest" = 1-Wise Coverage (each partition is covered at least once).
 * Using multiple values for a single partition does not increase the coverage percentage.
 * EP is strongest when used in combination with boundary value analysis.
-* Differentiating between combinations containing only valid partitions and combinations containing one or more invalid partitions is therefore essential
-* Invalid equivalence partitions should be tested at least individually, i.e. in combination with valid partitions for the other parameters, in order to avoid defect masking
+* Differentiating between combinations containing only valid partitions and combinations containing one or more invalid partitions is therefore essential.
+* Invalid equivalence partitions should be tested at least individually, i.e. in combination with valid partitions for the other parameters, in order to avoid defect masking.
 
 
 > ⚠️ **Defect Masking Prevention:**
@@ -99,7 +99,7 @@ See also:
 
 * **[Test Matrix for an Input Field](./input-field-test-matrix.md)** - Practical applying EP to an Input Field.
 * **[Equivalence Partitioning (EP) for Non‑Functional Requirements](./ep-templates-nbr.md)** - Practical templates for applying EP to NFRs.
-* **[Boundary Value Analysis (BVA)](./bva.md)** - Summary of the core concepts from ISTQB Advanced Test Analyst.
+* **[Boundary Value Analysis (BVA)](./boundary-value-analysis.md)** - Summary of the core concepts from ISTQB Advanced Test Analyst.
 * **[Back to Main Page](./)**
 
 
