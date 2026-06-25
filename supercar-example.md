@@ -66,3 +66,20 @@ See also:
 * **[Classification Tree Testing](./classification-tree.md)** - Summary of the core concepts from ISTQB Advanced Test Analyst.
 * **[Classification Tree Tools](./classification-tree-tools.md)** - Links for the most popular tools.
 * **[Back to Main Page](./)**
+
+<script type="module">
+  import mermaid from '[https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs](https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs)';
+  mermaid.initialize({ startOnLoad: true, theme: 'default' });
+
+  // Jekyll's Markdown parser (Kramdown) outputs code blocks differently than Mermaid expects.
+  // This script grabs all 'language-mermaid' blocks and converts them into divs so Mermaid can read them.
+  document.addEventListener("DOMContentLoaded", function() {
+    const blocks = document.querySelectorAll('pre code.language-mermaid');
+    blocks.forEach((block) => {
+      const div = document.createElement('div');
+      div.className = 'mermaid';
+      div.textContent = block.textContent;
+      block.parentElement.replaceWith(div);
+    });
+  });
+</script>
