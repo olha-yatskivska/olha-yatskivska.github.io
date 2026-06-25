@@ -1,4 +1,4 @@
-[(Back to Main Page)](./)
+[Back to Main Page](./)
 
 # Equivalence Partitioning (EP) for Non‑Functional Requirements  
 
