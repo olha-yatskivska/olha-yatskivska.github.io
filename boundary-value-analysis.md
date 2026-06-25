@@ -48,7 +48,7 @@ BVA is used to test the proper handling of values that exist on the boundaries o
 ---
 
 ## Specification Keywords: Inclusive vs. Exclusive Boundaries
-#### *✅ = boundary value is included in the range | ⬜  = boundary value is excluded*
+
 * [x] up to - included
 * [x] inclusively - included 
 * [ ] less than, more than - not included (weight, height)
@@ -56,6 +56,9 @@ BVA is used to test the proper handling of values that exist on the boundaries o
 * [ ] before, after - not included (time, date)
 * [ ] between - needs clarification
 
+where 
+* [x] = boundary value is included in the range
+* [ ] = boundary value is excluded*
 ---
 
 ## Three-point BVA vs Two-point BVA
