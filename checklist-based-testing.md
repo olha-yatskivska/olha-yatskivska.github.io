@@ -54,9 +54,9 @@
 
 To avoid duplication, checklists are mapped directly to their relevant Quality Characteristics within this toolbox:
 
-* **[Usability/Accesability](https://github.com/olha-yatskivska/qa-toolbox/tree/main/interaction-capability-usability)** - Includes UI/UX heuristics and WCAG accessibility checklists. 
+* **[Usability/Accesability](./interaction-capability-usability.md)** - Includes UI/UX heuristics and WCAG accessibility checklists. 
 
-* **[Security](https://github.com/olha-yatskivska/qa-toolbox/tree/main/security)** - Includes OWASP standards and API security checklists.
+* **[Security](.security.md)** - Includes OWASP standards and API security checklists.
 
 * **Platform Compliance:** Mandatory checklists for mobile release:
   * [App Store Guidlines](https://developer.apple.com/app-store/review/guidelines/)
