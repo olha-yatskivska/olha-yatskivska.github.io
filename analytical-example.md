@@ -58,7 +58,7 @@ graph TD
 ```
 
 ## Why this approach matters:
-By applying analytical grouping, we reduce the "Font Size" parameter from 1,638 possible inputs down to just 3 highly effective test classes. When combined with Pairwise (2-wise) testing across the other classifications (Style, Strikethrough, Height, Caps), we can achieve maximum defect detection with a minimal, highly efficient number of test cases.
+By applying analytical grouping, we reduce the "Font Size" parameter from 1638 possible inputs down to just 3 highly effective test classes. When combined with Pairwise (2-wise) testing across the other classifications (Style, Strikethroug0h, Height, Caps), we can achieve maximum defect detection with a minimal, highly efficient number of test cases.
    
   
 --- 
