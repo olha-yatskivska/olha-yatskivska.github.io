@@ -1,4 +1,4 @@
-| **Quality Risk Category** | **What Kind of Problems Fit Into tis Category** |
+| **Quality Risk Category** | **What Kind of Problems Fit Into this Category** |
 | :--- | :--- | 
 | Functionality |Failures that cause specific features not to work.  | 
 | Load, Capacity, and Volume| Failures in scaling of system to expected peak concurrent usage levels. | 
