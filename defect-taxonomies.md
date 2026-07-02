@@ -1,5 +1,6 @@
 # Defect taxonomies 
 
+
 * **Boris Beizer's Taxonomy** - Categorizes defects by origin (requirements, structural, data, integration, etc.) with empirical distribution data showing where bugs concentrate. Source: "Software Testing Techniques"
 
 
