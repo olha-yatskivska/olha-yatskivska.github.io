@@ -6,6 +6,7 @@
 > * Certified Tester Advanced Level Test Analyst (CTAL-TA) Syllabus
 > * Course ISTQB Advanced Test Analyst from the [Trainer Alexandra Kovalova](https://certifiedunicorns.pro/advancedistqb?utm_source=telegram&utm_medium=webinar-agile-anons&utm_campaign=25-05)
 
+
 * Exploratory testing is characterized by the tester **simultaneously** learning about the test object and its defects, planning the testing work to be done, designing and executing the tests, and reporting the results. 
 
 * The tester **dynamically** adjusts test goals during execution and prepares only lightweight documentation. 
