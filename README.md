@@ -12,5 +12,8 @@ A structured repository of software testing theory, ISTQB preparation materials,
 | **Rule-Based Test Techniques** | [Decision Table Testing](./decition-table.md) <br> Metamorphic Testing  *WIP (To be updated via v4.0)* | [Decision Table Example](./decision-table-example.md)  | [Decision Table Template](./template-decision-table.md)|
 | **Behavior-Based Test Techniques** | CRUD Testing *WIP (To be updated via v4.0)*  <br> [State Transition Testing](./state-transition.md) |  *WIP (To be updated via v4.0)* |  *WIP (To be updated via v4.0)* |
 | **Behavior-Based Test Techniques** | [Scenario-Based Testing]  - [Use Case Testing](./use-case-testing.md)| [Use case test cases](./use-case-test-cases.md)||
-| **Experience-Based Testing** | Test Charters<br>Checklistss<br> Crowd Testing| *WIP (To be updated via v4.0)* | *WIP (To be updated via v4.0)* |
-|  **Selecting Test Techniques to Mitigate Product Risks** |  *WIP (To be updated via v4.0)*  |  *WIP (To be updated via v4.0)* |
+| **Experience-Based Testing** |[Exploratory Testing](./exploratory-testing.md)<br>[Error Guessing](./error-guessing.md)<br>[Defect-Based Test Techniques](defect-based.md)| *WIP (To be updated via v4.0)* |[Defect taxonomies](defect-taxonomies.md)  |
+| **Selecting Test Techniques to Mitigate Product Risks** | |  [Template for a Quality Risk Taxonomy](risk-based-analysis.md) |  | |
+| **Quality characteristics** | [Usability](./usability-evaluation.md)<br>[Portability Testing](./portability-testing.md)<br><br>[Functional suitability](functional-suitability.md)| | [Interaction Capability/Usability](interaction-capability-usability.md) |
+| **Software Defect Prevention** | [Checklist-based reviewing](./check-based-reviews.md)| | | 
+
