@@ -62,6 +62,8 @@ Interoperability testing  is a sub-characteristic of Compatibility testing.
 * Techniques such as equivalence partitioning, boundary value analysis, decision tables, state transition diagrams, use cases and pairwise testing are all applicable to interoperability testing.
 * Typical defects found include incorrect data exchange between interacting components.
 
+
+
 Practice API
 
 Validating Your Example: The "First Connection"
@@ -84,6 +86,8 @@ What makes it Interoperability Testing?
 You aren't just checking if the JSON is formatted correctly (that's contract testing).
 You are verifying that Stripe actually processes the test card, deducts the simulated funds, and sends a Webhook back to your system.
 Finally, you verify that your system receives that Webhook, understands it, and updates the order status in your database to "Paid." Both systems worked together to complete a real-world transaction.
+
+
 Example 2: "Log in with Google" (OAuth 2.0)
 Imagine you are adding Single Sign-On (SSO) to your application.
 
