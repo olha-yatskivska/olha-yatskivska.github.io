@@ -12,3 +12,5 @@ A structured repository of software testing theory, ISTQB preparation materials,
 | **Rule-Based Test Techniques** | [Decision Table Testing](./decition-table.md) <br> Metamorphic Testing  *WIP (To be updated via v4.0)* | [Decision Table Example](./decision-table-example.md)  | [Decision Table Template](./template-decision-table.md)|
 | **Behavior-Based Test Techniques** | CRUD Testing *WIP (To be updated via v4.0)*  <br> [State Transition Testing](./state-transition.md) |||
 | **Behavior-Based Test Techniques** | [Scenario-Based Testing]  - [Use Case Testing](./use-case-testing.md)| [Use case test cases](./use-case-test-cases.md)||
+| **Experience-Based Testing** | Test Charters Supporting Session-Based Testing<br>Checklists Supporting Experience-Based Test Techniques<br> Crowd Testing| *WIP (To be updated via v4.0)* | *WIP (To be updated via v4.0)* |
+|  **Selecting Test Techniques to Mitigate Product Risks** | | |
