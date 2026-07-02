@@ -1,3 +1,13 @@
+# Template for a Quality Risk Taxonomy   
+used during Risk-Based Testing (RBT) sessions
+
+---
+
+> Source: Critical Testing Processes: Plan, Prepare, Perform, Perfect (by Rex Black)
+
+---
+
+
 | **Quality Risk Category** | **What Kind of Problems Fit Into this Category** |
 | :--- | :--- | 
 | Functionality |Failures that cause specific features not to work.  | 
