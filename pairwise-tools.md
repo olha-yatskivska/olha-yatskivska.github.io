@@ -6,7 +6,7 @@
 
 * **Minimum number of test cases:** For 2-wise is the product of the two largest parameters. Tools might generate more, but never less (for any n-wise coverage, the minimum baseline is always the product of the n largest parameters.)
 
-* **The Assumption:* The results of a few tests are representative of all tests and that those few tests represent expected usage (e.g. in the area of medical devices under study by NIST, 66% of failures were triggered by a single variable and 97% by either one variable or two variables interaction).
+* **The Assumption:** The results of a few tests are representative of all tests and that those few tests represent expected usage (e.g. in the area of medical devices under study by NIST, 66% of failures were triggered by a single variable and 97% by either one variable or two variables interaction).
 
 * **The Domain Factor:** 2-wise testing is perfect for standard apps (e-commerce, web). However, highly complex or safety-critical domains (medical, FinTech) often require 3-wise or higher coverage to catch bugs hidden in complex logic.
 
