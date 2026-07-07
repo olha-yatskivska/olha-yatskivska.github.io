@@ -21,7 +21,7 @@
 
 * [ ] Enter digits and edit them using the backspace key, and delete them, and use arrow keys (or the mouse) to move you into the digits you’ve already entered so that you can insert or overtype new digits.
 
-* [ ] Enter digits while the system is reacting to interrupts of different kinds (such as printer activity, clock events, mouse movement and clicks, files going to disk, and so on).
+* [ ] Enter digits while the system is reacting to interrupts of different kinds (such as printer activity, clock events, mouse movement and clicks, saving or downloading fiiles, and so on).
 
 * [ ] Enter a digit, shift focus to another application, return to this application. Where is the focus?
 
