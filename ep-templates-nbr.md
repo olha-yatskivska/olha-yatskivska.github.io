@@ -152,5 +152,5 @@ System supports multiple locales.
 See also:
 
 * **[Equivalence Partitioning (EP)](./equivalence-partitioning.md)** - Summary of the core concepts from ISTQB Advanced Test Analyst.
-* **[Test Matrix for an Input Field](./input-field-test-matrix.md)** - Practical applying EP to an Input Field.
+* **[Test Matrix for an Input Field](./input-field-test-matrix.md)** - A systematic framework for EP and BVA to an input field.
 * **[Back to Main Page](./)**
