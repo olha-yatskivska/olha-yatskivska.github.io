@@ -41,7 +41,7 @@
 
  ## Classification Tree Visualization
  
- ![Classification Tree Visualization](./img-classification-tree.drawio.svg)
+ ![Classification Tree Visualization](./img-classification-tree-visualization.drawio.svg)
  
 
 ## Mechanics After Visualization: 
