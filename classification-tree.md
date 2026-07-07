@@ -62,7 +62,7 @@
 | TC2 (High Risk Age)      | No     | No       | No        | No           | 18-33 | >59   | Increased Premium   |
 | TC3 (Underweight Smoker) | Yes    | No       | No        | No           | <17   | 40-59 | High Risk / Reject  |
 | TC4 (Invalid Boundary)   | No     | No       | No        | No           | >39   | 18-39 | Decline Application |
-...
+
 
 ### 2. Select Coverage Criterion
 
