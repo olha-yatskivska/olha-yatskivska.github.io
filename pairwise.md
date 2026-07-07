@@ -105,15 +105,14 @@ The most common types of defects found with this test technique are defects rela
 
 ---
 
-## Seven Factors that strongly influence the outcome of your pairwise testing by [James Bach](https://www.satisfice.com/download/pairwise-testing-a-best-practice-that-isnt) : 
-1) The actual interdependencies among variables in the product under test. 
-2) The probability of any given combination of variables occurring in the field. 
-3) The severity of any given problem that may be triggered by a particular combination of 
-variables.
-4) The particular variables you decide to combine. 
-5) The particular values of each variable you decide to test with. 
-6) The combinations of values you actually test. 
-7) Your ability to detect a problem if it occurs. 
+## Seven Factors that strongly influence the outcome of your pairwise testing by [James Bach](https://www.satisfice.com/download/pairwise-testing-a-best-practice-that-isnt) :    
+* 1) The actual interdependencies among variables in the product under test.    
+* 2) The probability of any given combination of variables occurring in the field.    
+* 3) The severity of any given problem that may be triggered by a particular combination of variables.      
+* 4) The particular variables you decide to combine.    
+* 5) The particular values of each variable you decide to test with.    
+* 6) The combinations of values you actually test.    
+* 7) Your ability to detect a problem if it occurs.    
 
 ---
 
