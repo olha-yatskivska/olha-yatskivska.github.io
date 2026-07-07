@@ -39,7 +39,8 @@
   * *Type 1:* A certain class in Classification A only valid with specific classes in Classification B 
   * *Type 2:* Mutual exclusions between classes across different classifications
 
- ### [Classification Tree Visualization](https://app.diagrams.net/#G1LGmr5C4NmzL2OUjF26MR92mzPRWVg0x3#%7B%22pageId%22%3A%22H76gkMXWLeT6auDWMIiv%22%7D)
+
+### [Classification Tree Visualization](https://app.diagrams.net/#G1LGmr5C4NmzL2OUjF26MR92mzPRWVg0x3#%7B%22pageId%22%3A%22H76gkMXWLeT6auDWMIiv%22%7D)
  
  
  ![Classification Tree Visualization](./img-classification-tree-visualization.drawio.svg)
