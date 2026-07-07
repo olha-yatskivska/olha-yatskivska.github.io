@@ -41,63 +41,7 @@
 
  ## ![Classification Tree Visualization](./img-classification-tree.drawio.svg)
  
- ```mermaid 
- graph TD
-    Root(["Life Insurance"])
-    
-    %% Classifications (Parameters)
-    Smoked["Smoked"]
-    Disabled["Disabled"]
-    Diagnosed["Diagnosed"]
-    Hospitalized["Hospitalized"]
-    BMI["BMI"]
-    Age["Age"]
 
-    Root --> Smoked
-    Root --> Disabled
-    Root --> Diagnosed
-    Root --> Hospitalized
-    Root --> BMI
-    Root --> Age
-
-   %% Classes (Partitions) - These will have no borders
-    Smoked --> S_Yes[Yes]
-    Smoked --> S_No[No]
-    Disabled --> D_Yes[Yes]
-    Disabled --> D_No[No]
-    Diagnosed --> Di_Yes[Yes]
-    Diagnosed --> Di_No[No]
-    Hospitalized --> H_Yes[Yes]
-    Hospitalized --> H_No[No]
-
-    BMI --> B1[<17]
-    BMI --> B2[18-33]
-    BMI --> B3[34-36]
-    BMI --> B4[37-39]
-    BMI --> B5[>39]
-
-    Age --> A1[18-39]
-    Age --> A2[40-59]
-    Age --> A3[>59]
-
-    %% Styling to remove borders from Classes (Partitions)
-    style S_Yes stroke-width:0px
-    style S_No stroke-width:0px
-    style D_Yes stroke-width:0px
-    style D_No stroke-width:0px
-    style Di_Yes stroke-width:0px
-    style Di_No stroke-width:0px
-    style H_Yes stroke-width:0px
-    style H_No stroke-width:0px
-    style B1 stroke-width:0px
-    style B2 stroke-width:0px
-    style B3 stroke-width:0px
-    style B4 stroke-width:0px
-    style B5 stroke-width:0px
-    style A1 stroke-width:0px
-    style A2 stroke-width:0px
-    style A3 stroke-width:0px
-```
 ## Mechanics After Visualization: 
 
 ### 1. Create the Combination Table:
