@@ -1,3 +1,5 @@
+[Back to Main Page](./)
+
 ## EP/BVA Question Checklist
 
 For each boundary between partitions, ask:
@@ -13,3 +15,14 @@ For each boundary between partitions, ask:
 
 4. [ ]  Do all partitions together cover the entire input domain?
    -> "Is every possible input handled by exactly one partition?"
+
+
+---
+
+See also:
+
+* **[Test Matrix for an Input Field](./input-field-test-matrix.md)** - A systematic framework for EP and BVA to an input field.
+* **[Equivalence Partitioning (EP) for Non‑Functional Requirements)](./ep-templates-nbr.md)** - Practical templates for applying EP to NFRs.
+* **[Equivalence Partitioning (EP)](./equivalence-partitioning.md)** - Summary of the core concepts of EP from ISTQB Advanced Test Analyst.
+* **[Boundary Value Analysis (BVA)](./boundary-value-analysis.md)** - Summary of the core concepts of EP from ISTQB Advanced Test Analyst.
+* **[Back to Main Page](./)**
