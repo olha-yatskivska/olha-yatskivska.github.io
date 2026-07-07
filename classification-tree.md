@@ -39,7 +39,9 @@
   * *Type 1:* A certain class in Classification A only valid with specific classes in Classification B 
   * *Type 2:* Mutual exclusions between classes across different classifications
 
- ## ![Classification Tree Visualization](./img-classification-tree.drawio.svg)
+ ## Classification Tree Visualization
+ 
+ ![Classification Tree Visualization](./img-classification-tree.drawio.svg)
  
 
 ## Mechanics After Visualization: 
@@ -51,10 +53,13 @@
   
 
 [Tree Structure Above]
-        │   │   │         │     │     │
-TC1 ────┼───┼───┼─────────┼─────┼─────┼────
-TC2 ────┼───┼───┼─────────┼─────┼─────┼────
-TC3 ────┼───┼───┼─────────┼─────┼─────┼────
+
+| Test Case                | Smoked | Disabled | Diagnosed | Hospitalized | BMI   | Age   | Expected Result     |
+|--------------------------|--------|----------|-----------|--------------|-------|-------|---------------------|
+| TC1 (Standard Valid)     | No     | No       | No        | No           | 18-33 | 18-39 | Standard Premium    |
+| TC2 (High Risk Age)      | No     | No       | No        | No           | 18-33 | >59   | Increased Premium   |
+| TC3 (Underweight Smoker) | Yes    | No       | No        | No           | <17   | 40-59 | High Risk / Reject  |
+| TC4 (Invalid Boundary)   | No     | No       | No        | No           | >39   | 18-39 | Decline Application |
 ...
 
 ### 2. Select Coverage Criterion
