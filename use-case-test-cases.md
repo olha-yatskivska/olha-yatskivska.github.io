@@ -11,6 +11,8 @@ TC-V-01: Main Scenario - Successful Course Registration
 Objective: Verify that an ITP with a valid voucher can complete full registration flow end-to-end.
 
 Precondition: ITP has a valid voucher code; SP is accessible; course has available spots (<12 participants registered)
+
+
 | # | Test step | Expected result|
 | :--- | :--- | :--- |
 | 1 | Launch SP  | SP's home page is shown and requests a voucher code from the ITP. |
@@ -18,6 +20,7 @@ Precondition: ITP has a valid voucher code; SP is accessible; course has availab
 | 3 | Select a date and location  | SP shows an overview of the selected course's contents. |
 | 4 | Confirm selection of this course by pressing the "Register" button  | SP places the ITP onto the list of participants and a message shown "You are registered for the course". SP updates the participants list. |
 | 5 | Log out | SP's login page is shown |
+
 
 Postcondition: ITP appears on participants list; participant count incremented by 1; voucher is consumed (clarify with BA: can it be reused?)
 
