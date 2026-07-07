@@ -120,8 +120,8 @@ For each boundary between partitions, ask:
 
 See also:
 
-* **[Test Matrix for an Input Field](./input-field-test-matrix.md)** - Practical applying EP to an Input Field.
-* **[Equivalence Partitioning (EP)](./equivalence-partitioning.md)** - Practical templates for applying EP to NFRs.
-* **[Boundary Value Analysis (BVA)](./bva.md)** - Summary of the core concepts from ISTQB Advanced Test Analyst.
+* **[Test Matrix for an Input Field](./input-field-test-matrix.md)** - A systematic framework for EP and BVA to an input field.
+* **[Equivalence Partitioning (EP) for Non‑Functional Requirements)](./ep-templates-nbr.md)** - Practical templates for applying EP to NFRs.
+* **[Equivalence Partitioning (EP)](./equivalence-partitioning.md)** - Summary of the core concepts from ISTQB Advanced Test Analyst.
 * **[Back to Main Page](./)**
 
