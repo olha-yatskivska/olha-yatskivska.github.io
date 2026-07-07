@@ -44,7 +44,7 @@
 * The tools require, as input, a list of the parameters and their values and generate a suitable set of combinations of values from each parameter that covers all pairs of parameter-value pairs. 
 
 > *Greedy Algorithms (AllPairs, PICT): These tools do not care about balance; they only care about coverage. The algorithm follows a simple logic:*
-> *1. Generate a list of all required pairs.
+> 1. Generate a list of all required pairs.
 > 2. Create a test case (row) that covers the highest possible number of new pairs.
 > 3. Repeat until the "uncovered" list is empty.*
 
