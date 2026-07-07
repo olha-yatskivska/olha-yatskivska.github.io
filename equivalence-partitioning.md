@@ -97,7 +97,7 @@ This is the belief that if one value in a partition works (or fails), all other 
 
 See also:
 
-* **[Test Matrix for an Input Field](./input-field-test-matrix.md)** - Practical applying EP to an Input Field.
+* **[Test Matrix for an Input Field](./input-field-test-matrix.md)** - A systematic framework for EP and BVA to an input field.
 * **[Equivalence Partitioning (EP) for Non‑Functional Requirements](./ep-templates-nbr.md)** - Practical templates for applying EP to NFRs.
 * **[Boundary Value Analysis (BVA)](./boundary-value-analysis.md)** - Summary of the core concepts from ISTQB Advanced Test Analyst.
 * **[Back to Main Page](./)**
