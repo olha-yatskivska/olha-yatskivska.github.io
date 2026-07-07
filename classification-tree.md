@@ -39,7 +39,7 @@
   * *Type 1:* A certain class in Classification A only valid with specific classes in Classification B 
   * *Type 2:* Mutual exclusions between classes across different classifications
 
- ## Classification Tree Visualization
+ ## ![Classification Tree Visualization](./)
  
  ```mermaid 
  graph TD
