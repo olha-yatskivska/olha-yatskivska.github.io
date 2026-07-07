@@ -1,6 +1,6 @@
 [Back to Main Page](./)
 
-# 📊 Decision Table Template
+# Decision Table Template
 
 | # | Questions to BA, PO, Dev | Answears | 
 | :--- | :--- | :---: | 
