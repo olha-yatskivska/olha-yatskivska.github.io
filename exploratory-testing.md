@@ -37,6 +37,7 @@
 * Oracles
 
 > Read more about chartes, session-based test management and more links about Exploratory Testing in [the blog "That's the buffet table"](https://thatsthebuffettable.blogspot.com/2017/07/pathway-exploratory-testing.html)
+
 ---
 
 ## Limitations/Difficulties
