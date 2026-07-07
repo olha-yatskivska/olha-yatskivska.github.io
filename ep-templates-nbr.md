@@ -97,21 +97,6 @@ System shall operate continuously for `<DURATION>`.
 
 ---
 
-### Availability / SLA
-
-System availability shall be `<SLA>`.
-
-
-| Partition | Representative |
-|--------|----------------|
-| Normal | Well within SLA |
-| Boundary | At SLA limit |
-| Violation | SLA exceeded |
-
-> Pair with monitoring alerts
-
----
-
 ### Compatibility / Interoperability
 
 System supports specific platforms.
