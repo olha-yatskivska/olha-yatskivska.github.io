@@ -11,37 +11,9 @@
 * **R-06.** Hybrid is available for Hatchback only.
 * **R-07.** The website will allow an order to be processed if the chosen vehicle configurations is in stock, otherwise, a message will be displayed to the user to try again later.
 
-Based on the specification, the following classification tree has been developed: 
+Based on the specification, the [following classification tree](https://app.diagrams.net/#G1LGmr5C4NmzL2OUjF26MR92mzPRWVg0x3#%7B%22pageId%22%3A%22h1yfxWF85LsedUhxNonw%22%7D) has been developed: 
 
-
-```mermaid
-graph TD
-    Root(["Supercar"])
-
-    %% Classifications
-    PowerUnit["Power Unit"]
-    BodyStyle["Body Style"]
-
-    Root --> PowerUnit
-    Root --> BodyStyle
-
-    %% Classes
-    PowerUnit --> Petrol["Petrol"]
-    PowerUnit --> Electric["Electric"]
-    PowerUnit --> Hybrid["Hybrid"]
-
-    BodyStyle --> SUV["SUV"]
-    BodyStyle --> Saloon["Saloon"]
-    BodyStyle --> Hatchback["Hatchback"]
-
-    %% Styling for leaf nodes
-    style Petrol stroke-width:0px
-    style Electric stroke-width:0px
-    style Hybrid stroke-width:0px
-    style SUV stroke-width:0px
-    style Saloon stroke-width:0px
-    style Hatchback stroke-width:0px
-```
+![Classification Tree Visualization](./img-supercar-example.drawio.svg)
 
 ## Combination Table
 *(Note: ❌ indicates an invalid combination based on constraints)*
