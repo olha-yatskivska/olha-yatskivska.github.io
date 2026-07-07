@@ -55,7 +55,7 @@ This helps to identify the following information:
   * Inputs to be used by the pairwise test technique.
   * Particular combinations of interest (e.g., frequently used or a common source of defects)
   * Particular combinations which are incompatible. This does not assume that the combined factors won’t affect each other; they very well might, but they should affect each other in acceptable ways.
-  * Logical relationships between variables. For example, “if variable1 = x, then variable2 cannot be y”. Classification trees which capture these relationships are called “feature models”.
+  * Logical relationships between variables. For example, “if variable 1 = x, then variable 2 cannot be y”. Classification trees which capture these relationships are called “feature models”.
 
 ---
 
