@@ -15,7 +15,7 @@
 ## Applicability Benefits
 
 * Visualizes complex dependencies
-* Easily identifies [incompatible combinations](./incompatible_situations.md) 
+* Easily identifies [incompatible combinations](./ct-incompatible_situations.md) 
 * Favilitates systematic N-wise coverage
 
 ## Data Organization
@@ -71,9 +71,9 @@
 | Coverage Level | Description | Number of Test Cases |
 | :-- | :-- | :-- |
 | Minimal | Each class appears in at least one test case | Equal to maximum number of classes in any single classification |
-| [Pairwise (2-wise)](./supercar-example.md) | Every pair of classes from different classifications appears at least once | Reduced set covering all pairs |
+| [Pairwise (2-wise)](./ct-supercar-example.md) | Every pair of classes from different classifications appears at least once | Reduced set covering all pairs |
 | n-wise | Every combination of n classes from n different classifications appears | Increases with n |
-| [Exhaustive](./analytical-example.md) | All possible combinations of all classes | Product of all class counts |
+| [Exhaustive](./ct-analytical-example.md) | All possible combinations of all classes | Product of all class counts |
 
 ### 3. Mark Test Cases in Combination Table
 * For each test case row, place a marker (dot/bullet) at the intersection with exactly one class from each classification
