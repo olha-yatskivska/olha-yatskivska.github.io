@@ -32,5 +32,5 @@
 See also:
 
 * **[Decision Table Testing](./decition-table.md)** -  Summary of the core concepts from ISTQB Advanced Test Analyst.
-* **[Decision Table Testing](./decision-table-example.md)** -  Practical Example of designing test cases.
+* **[Decision Table Examples](./decision-table-example.md)** -  Practical Example of designing test cases.
 * **[Back to Main Page](./)**
