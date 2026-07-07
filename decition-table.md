@@ -84,7 +84,8 @@ Coverage Types:
 
 See also:
 
-* **[Use Case Test Cases](./use-case-test-cases.md)** -  Practical Example of designing test cases.
+
+* **[Decision Table Testing](./decision-table-example.md)** -  Practical Example of designing test cases.
 * **[Back to Main Page](./)**
 
 
