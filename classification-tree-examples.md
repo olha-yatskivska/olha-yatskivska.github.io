@@ -10,19 +10,19 @@ Here are practical, real-world examples of applying the **Classification Tree Me
 
 Click on any file to view the detailed test design:
 
-1. **[Supercar Configurator (Pairwise & Constraints)](./supercar-example.md)**
+1. **[Supercar Configurator (Pairwise & Constraints)](./ct-supercar-example.md)**
    * **Focus:** End-to-end test design.
    * **Description:** Includes business requirements, a complete classification tree diagram, and a 2-wise (pairwise) combination table. Showcases requirement traceability by mapping invalid combinations directly to business rules.
 
-2. **[Microsoft Word Font Menu (Analytical Coverage)](./analytical-example.md)**
+2. **[Microsoft Word Font Menu (Analytical Coverage)](./ct-analytical-example.md)**
    * **Focus:** Logical grouping and avoiding combinatorial explosion.
    * **Description:** Demonstrating how a Test Analyst groups infinite inputs into logical equivalence partitions.
 
-3. **[Incompatible Situations](./incompatible_situations.md)**
+3. **[Incompatible Situations](./ct-incompatible_situations.md)**
    * **Focus:** Mutually exclusive constraints.
    * **Description:** Showing how to structure a tree when certain classes cannot logically or technically coexist (e.g., Insurance quoting rules).
 
-4. **[Complex Dependencies](./dependencies-example.md)**
+4. **[Complex Dependencies](./ct-dependencies-example.md)**
    * **Focus:** Hierarchical test data.
    * **Description:** Illustrating how to map classifications that are dependent on the selection of previous classifications.
 
