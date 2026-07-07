@@ -2,7 +2,7 @@
 
 # Boundary Value Analysis (BVA)  
 
-BVA is used to test the proper handling of values that exist on the boundaries of ordered equivalence partitions. It is an extension of Equivalence Partitioning and depends on correct partitioning as a prerequisite.
+BVA is used to test the proper handling of values that exist on the boundaries of ordered equivalence partitions. It is an extension of Equivalence Partitioning and depends on correct partitioning as a precondition.
 
 ## Important considerations about boundary values:
 * Identify all the equivalence partitions - the effectiveness of the boundary value tests depends on the correctness of the equivalence partitioning.
@@ -40,7 +40,7 @@ BVA is used to test the proper handling of values that exist on the boundaries o
 * Boolean (logical) variables present a problem for BVA
 * BVA assumes the variables to be truly independent which is not always possible.
 * Does not test dependencies between combinations of inputs.
-* Pesticide paradox susceptibility — BVA produces deterministic, fixed test values (boundary ± step). Unlike EP, where testers can vary representative values across executions, BVA test cases use the exact same data every run, making this technique particularly vulnerable to the pesticide paradox.
+* Pesticide paradox: BVA produces deterministic, fixed test values (boundary ± step). Unlike EP, where testers can vary representative values across executions, BVA test cases use the exact same data every run.
 * BVA applies only to ordered partitions.
 * The accuracy depends on the accurate identification of the equivalence partitions in order to correctly identify the boundaries.
 * The Test Analyst should also be aware of the precision in the valid and invalid values to be able to accurately determine the values to be tested. 
