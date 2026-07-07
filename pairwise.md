@@ -3,10 +3,10 @@
 # Pairwise Testing
 
 > Sources:
-> * Certified Tester Advanced Level Test Analyst (CTAL-TA) Syllabus
-> * Course ISTQB Advanced Test Analyst from the [Trainer Alexandra Kovalova](https://certifiedunicorns.pro/advancedistqb?utm_source=telegram&utm_medium=webinar-agile-anons&utm_campaign=25-05)
-> * Lee Copeland "A Practitioner's Guide to Software Test Design"
-> * James Bach [satisfice.com](https://www.satisfice.com/)
+> * Certified Tester Advanced Level Test Analyst (CTAL-TA) Syllabus (ISTQB)
+> * ISTQB Advanced Test Analyst Course [Instractor: Alexandra Kovalova](https://certifiedunicorns.pro/advancedistqb?utm_source=telegram&utm_medium=webinar-agile-anons&utm_campaign=25-05)
+> * A Practitioner's Guide to Software Test Design by Lee Copeland
+> * Satisfice Methodology (James Bach) - [satisfice.com](https://www.satisfice.com/)
 
 
 * Pairwise testing is used when testing software in which several input parameters, each with several possible values, must be tested in combination, giving rise to more combinations than are feasible to test in the time allowed.
@@ -87,6 +87,7 @@ This helps to identify the following information:
 * Some tools support the ability to force some combinations to be included in or excluded from the final selection of combinations. A Test Analyst may use this capability to emphasize or de-emphasize factors based on domain knowledge or product usage information.
 * The traditional pairwise algorithm does not natively handle dependencies between parameters or "forbidden" (invalid) combinations. Modern tools, such as [PICT](https://github.com/Microsoft/pict/blob/main/doc/pict.md), offer extended capabilities to manage these constraints and conditional logic effectively.
 * The technique may overlook critical logic paths when dealing with a high volume of True/False values, as simple 2-way coverage is often insufficient for complex boolean logic.
+
 ---
 
 ## Coverage
