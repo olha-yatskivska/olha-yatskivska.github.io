@@ -15,39 +15,11 @@ Imagine we are testing a simple graphic design tool that generates shapes based 
 * **R-04.** If a **Triangle** is selected, the system requires the user to specify a **Size** (Small or Large).
 * **R-05.** If a **Circle** is selected, the size is fixed by the system, and the Size parameter is disabled/hidden from the user.
 
-Based on these rules, we nest the "Size" classification directly under the "Triangle" class:
+Based on these rules, we nest the "Size" classification directly under the "Triangle" class in the [following Classification Tree](https://app.diagrams.net/#G1LGmr5C4NmzL2OUjF26MR92mzPRWVg0x3#%7B%22pageId%22%3A%22zznoRbdNYCVymFgKQh9d%22%7D):
 
-```mermaid
-graph TD
-    Root(["Entity"])
-    
-    %% Classifications (Parameters)
-    Colour["Colour"]
-    Shape["Shape"]
-     
-    Root --> Colour
-    Root --> Shape
- 
-    %% Define the style once
-    classDef noBorder stroke-width:0px;
 
-    %% Classes (Partitions) - Style applied directly using :::
-    Colour --> Red["Red"]:::noBorder
-    Colour --> Blue["Blue"]:::noBorder
-    Colour --> Green["Green"]:::noBorder
+![Classification Tree Visualization](./img-dependencies-example.drawio.svg)
 
-    Shape --> Triangle["Triangle"]:::noBorder
-    Shape --> Circle["Circle"]:::noBorder
-
-   
-    Triangle --> Size["Size of triagle"]
-
-    
- 
-    Size --> Small["Small"]:::noBorder
-    Size --> Large["Large"]:::noBorder
-
-```
 
 ## Combination Table (Handling Dependencies)
 
