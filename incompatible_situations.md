@@ -16,46 +16,10 @@ We are testing a global enterprise web application. The application must be cert
 * **R-03 (Constraint).** The **Edge** browser is strictly limited to the **Windows** environment.
 * **R-04 (Constraint).** **DB3** is a legacy database that lacks UTF-8 support; therefore, it is incompatible with **Arabic** and **Mandarin** localizations (English only).
 
-Based on these parameters, we generate the following Classification Tree:
+Based on these parameters, we generate the [following Classification Tree](https://app.diagrams.net/#G1LGmr5C4NmzL2OUjF26MR92mzPRWVg0x3#%7B%22pageId%22%3A%22PDqzqBuKi--XkEUE9EO5%22%7D):
 
+![Classification Tree Visualization](./img-incompatible_situations.drawio.svg)
 
-```mermaid
-graph TD
-    Root(["Config"])
-    
-    %% Classifications (Parameters)
-    OS["OS"]
-    Browser["Browser"]
-    Localization["Localization"]
-    Database["Database"]
-    
-    Root --> OS
-    Root --> Browser
-    Root --> Localization
-    Root --> Database
-
-    %% Define the style once
-    classDef noBorder stroke-width:0px;
-
-    %% Classes (Partitions) - Style applied directly using :::
-    OS --> Linux["Linux"]:::noBorder
-    OS --> Mac_OS["Mac OS"]:::noBorder
-    OS --> Windows_1["Windows 1"]:::noBorder
-
-    Browser --> Firefox["Firefox"]:::noBorder
-    Browser --> Chromium["Chromium"]:::noBorder
-    Browser --> Edge["Edge"]:::noBorder
-    Browser --> Safari["Safari"]:::noBorder
-    Browser --> Chrome["Chrome"]:::noBorder
-
-    Localization --> English["English"]:::noBorder
-    Localization --> Arabic["Arabic"]:::noBorder
-    Localization --> Mandarin["Mandarin"]:::noBorder
-
-    Database --> DB1["DB1"]:::noBorder
-    Database --> DB2["DB2"]:::noBorder
-    Database --> DB3["DB3"]:::noBorder
-```
 ## Combination Table (Handling Constraints)
 When designing the test suite, we must actively filter out combinations that violate our constraints. Below is a sample of the test matrix showing both valid combinations and how invalid combinations are flagged.
 
