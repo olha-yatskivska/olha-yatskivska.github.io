@@ -35,7 +35,7 @@ When designing the test suite, we must actively filter out combinations that vio
 | TC6 | Mac OS | Edge | Arabic | DB1 | ❌ Invalid (Violates R-03) |
 | TC7 | Windows | Firefox | English | DB3 | ✅ Valid |
 
-## 💡 Why this is effective:
+### Why this is effective:
 In a real-world scenario, feeding this tree into an automated combinatorial tool (like ACTS or PICT) without constraints would generate dozens of useless test cases (e.g., trying to boot Safari on Linux). By explicitly defining Incompatible Situations (R-02, R-03, R-04), the Test Analyst ensures the resulting test suite is 100% executable, highly efficient, and free of environmental false-positives.
 
 ---
