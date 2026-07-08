@@ -19,6 +19,9 @@
 
 ### Components of the State-transition diagram  
 
+![Components](./img-st-components.png)
+
+
 * Entry point
 ``` mermaid
 stateDiagram-v2
