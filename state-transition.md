@@ -21,31 +21,6 @@
 
 ![Components](./img-st-components.png)
 
-
-* Entry point
-``` mermaid
-stateDiagram-v2
-    [*] --> s1
-```
-* State - is a condition in which a system is waiting for events (can be a circle or a rectangle)
-```mermaid
-stateDiagram-v2
-    stateId
-```
-* Transition (->)- represents a change from one state to another caused by an event
-```mermaid
-stateDiagram-v2
-    State_1 --> State_2
-```
-* Event - something that cause the system to change state
-* /Action - an operation initiated because of a state change 
-* Exit poit 
-```mermaid
-stateDiagram-v2
-    s1 --> [*]
-```
-* Loops 
-
 > *Example:* [Mermaid's syntax for State diagrams](https://mermaid.js.org/syntax/stateDiagram.html#start-and-end) and the most common [State-transitions diagrams in different domains]()
 
 ## Structure of the State-transition Table
