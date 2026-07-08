@@ -33,7 +33,7 @@ When creating the test cases, notice how the Size columns are handled. If "Circl
 | TC2 |  | ● |  | ● |  |  | ● |
 | TC3 |  |  | ● |  | ● | - | - |
 
-## 💡 Why this is effective:
+### Why this is effective:
 If we had put "Size" at the top level next to "Colour" and "Shape", we would have generated test cases like (Green, Circle, Small). We would then have to write extra constraints to invalidate them. By nesting the dependency visually in the tree, we prevent invalid combinations from ever being generated in the first place!
 
 
