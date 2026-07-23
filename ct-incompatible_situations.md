@@ -16,7 +16,7 @@ We are testing a global enterprise web application. The application must be cert
 * **R-03 (Constraint).** The **Edge** browser is strictly limited to the **Windows** environment.
 * **R-04 (Constraint).** **DB3** is a legacy database that lacks UTF-8 support; therefore, it is incompatible with **Arabic** and **Mandarin** localizations (English only).
 
-Based on these parameters, we generate the [following Classification Tree](https://app.diagrams.net/#G1LGmr5C4NmzL2OUjF26MR92mzPRWVg0x3#%7B%22pageId%22%3A%22PDqzqBuKi--XkEUE9EO5%22%7D):
+Based on these parameters, there is a [following Classification Tree](https://app.diagrams.net/#G1LGmr5C4NmzL2OUjF26MR92mzPRWVg0x3#%7B%22pageId%22%3A%22PDqzqBuKi--XkEUE9EO5%22%7D):
 
 ![Classification Tree Visualization](./img-incompatible_situations.drawio.svg)
 
