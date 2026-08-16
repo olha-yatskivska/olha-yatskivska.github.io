@@ -17,3 +17,6 @@ A structured repository of software testing theory, ISTQB preparation materials,
 | **Quality characteristics** | [Usability](./usability-evaluation.md)<br> <br> [Portability Testing](./portability-testing.md)<br> <br>[Functional suitability](functional-suitability.md)| | [Interaction Capability/Usability](interaction-capability-usability.md) |
 | **Software Defect Prevention** | [Checklist-based reviewing](./check-based-reviews.md)| | | 
 
+## Additional QA Tools
+
+- [Agent QA](https://github.com/vostride/agent-qa) — The self-improving QA agent for software teams, with natural-language web/mobile tests, persistent test memory, and self-healing flows.
