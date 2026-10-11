@@ -12,9 +12,9 @@
 See also:
 
 * **[State Transition Testing](./state-transition-technique.md)** - Summary of the core concepts from ISTQB Advanced Test Analyst.
-* **[Templates of State Transition Diagrams](./templates-state-transition-diagrams.md)** - eady-to-use templates optimized for maximizing test coverage across common system behaviors.
+* **[Templates of State Transition Diagrams](./templates-state-transition-diagrams.md)** - ready-to-use templates optimized for maximizing test coverage across common system behaviors.
 
-[Back to Main Page](./)
+
 
 
 
