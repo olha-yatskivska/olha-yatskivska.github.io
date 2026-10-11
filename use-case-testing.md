@@ -39,7 +39,7 @@ Note: The tester can go from different steps from the main path to another Use C
 * One test case per alternative path - can be a part of main path or combine if have limited time
 * Mandatory one test case on each exception path - to prevent masking of defects.
 * The Tester for each of steps can apply test techniques (BVA, EP, Decision Table, etc.) if it applicable
-* [See practical example](./use-case-test-cases.md)
+
 
 ## ATN scenarios example
 
