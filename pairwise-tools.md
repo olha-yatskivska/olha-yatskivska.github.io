@@ -35,7 +35,7 @@ To see a collection of links related to pairwise tools and there comparisons con
 
 See also:
 
-* **[Pairwise Testing Tools Comparison](https://docs.google.com/spreadsheets/d/1iwLri_iummO5VbK9NMeDdRIPQQAvaEdBTxWiUUDPObo/edit?usp=sharing)** - Practical Example Spreadsheets.
+
 * **[Pairwise Testing](./pairwise.md)** - Summary of the core concepts from ISTQB Advanced Test Analyst.
 * **[Back to Main Page](./)**
   
