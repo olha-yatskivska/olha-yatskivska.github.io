@@ -11,9 +11,7 @@
 
 See also:
 
-* **[State Transition Testing](./state-transition-technique.md)** - Summary of the core concepts from ISTQB Advanced Test Analyst.
-* **[Templates of State Transition Diagrams](./templates-state-transition-diagrams.md)** - ready-to-use templates optimized for maximizing test coverage across common system behaviors.
-
+* **[State Machine and Transition Diagrams](https://olha-yatskivska.github.io/state-transition-diagram.html)** - Links for the most popular tools.
 
 
 
