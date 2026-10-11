@@ -21,7 +21,7 @@
 
 ![Components](./img-st-components.png)
 
-> *Example:* [Mermaid's syntax for State diagrams](https://mermaid.js.org/syntax/stateDiagram.html#start-and-end) and the most common [State-transitions diagrams in different domains]()
+> *Example:* [Mermaid's syntax for State diagrams](https://mermaid.js.org/syntax/stateDiagram.html#start-and-end)
 
 ## Structure of the State-transition Table
 
@@ -126,4 +126,5 @@
 
 See also:
 
+* **[State Machine and Transition Diagrams](https://olha-yatskivska.github.io/state-transition-diagram.html)** - Links for the most popular tools.
 * **[Back to Main Page](./)**
