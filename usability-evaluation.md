@@ -130,9 +130,4 @@ From ISO 25010:
 | Heuristic Evaluation | Usability defect identification against principles | Usability experts |
 | Surveys (SUMI / WAMMI) | Subjective user perception data | End users |
   
----
 
-## Usage in Test Analysis:
-* [Checklist: Usability Heuristics for Review](./review-usability-checklist.md) 
-* [Accessibility Test Analysis Checklist](./checklist-accessibility.md)
-* [Usability Test Analysis Checklist](./checklist-usability.md)
