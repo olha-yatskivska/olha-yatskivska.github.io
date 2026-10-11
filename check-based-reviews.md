@@ -90,4 +90,4 @@ Good checklists will find problems and will also help to start discussions regar
 Using checklist-based reviewing with standard checklists such as those referenced in the Foundation Level syllabus and developing organizationally specific checklists such as the ones shown above will help the Test Analyst be
 effective in reviews.
 
-For more information on reviews and inspections see [Gilb93] and [Wiegers03]. 
+
