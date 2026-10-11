@@ -11,7 +11,7 @@
 
 See also:
 
-* **[State Machine and Transition Diagrams](https://olha-yatskivska.github.io/state-transition-diagram.html)** - Links for the most popular tools.
+* **[State Transition Testing](https://olha-yatskivska.github.io/state-transition.html)** - Summary of core concepts from ISTQB Advanced Test Analyst.
 
 
 
